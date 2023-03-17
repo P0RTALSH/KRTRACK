@@ -1,0 +1,10 @@
+{
+    "name": "krtrack",
+    "version": "0.5",
+    "description": "It's long, but sadly, it's not true to your dick",
+    "type": "module",
+    "dependencies": {
+        "socket.io": "^4.6.1",
+        "socket.io-client": "^4.6.1"
+    }
+}
