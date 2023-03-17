@@ -91,7 +91,7 @@ body {
   }
 
   /* Style the submit button */
-  button[id="play-btn"] {
+  button[id="add-btn"] {
     padding: 10px 20px;
     margin-top: 10px;
     border: none;
@@ -105,10 +105,28 @@ body {
   }
     
   /* Change the background color of the button on hover */
-  button[id="play-btn"]:hover {
+  button[id="add-btn"]:hover {
     background-color: #c20000;
   }
   
+  button[id="next-btn"] {
+    padding: 10px 20px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #00d40b;
+    color: #fff;
+    font-size: 16px;
+    font-family: Bungee;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+    
+  /* Change the background color of the button on hover */
+  button[id="next-btn"]:hover {
+    background-color: #00c40a;
+  }
+
   /* Style the video container */
   .video-container {
     margin: 0 auto;
